@@ -1,0 +1,89 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+.container-all{
+   border: 20px solid blue; 
+   width: 1000px;
+   border-bottom: 13px solid rgb(150, 150, 245);
+   border-top: 13px solid rgb(150, 150, 245);
+   border-radius: 30px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.first{
+    width: 30%;
+    margin-left: 65px;
+    margin-top: 0;
+    font-size: 2em;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.button-link{
+    background-color: black;
+    color: whitesmoke;
+    border-radius: 5px;
+}
+
+.image-container{
+    width: 250px; 
+    height: 300px;
+    margin-left: 65px;
+}
+
+.container1{
+    display: flex;
+}
+
+.container-1b{
+     margin: 0 200px 100px 60px;
+}
+
+.navigation{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 30%;
+}
+
+.cont{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(245, 245, 222);
+}
+.container-2{
+    display: flex;
+    justify-content: space-between;
+    
+    align-items: center;
+    margin-top: 40px;
+    width: 90%;
+}
+
+.container-2a{
+    /* margin: 50px 400px 0 65px ; */
+    width: 40%;
+    margin: 0 0 0 20px;
+}
+
+.container-2b{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+button{
+    width: 100px;
+    height: 30px ;
+    border-radius: 5px;
+    background-color: black;
+    color: whitesmoke;
+    margin: 0 0 10px 0;
+}
